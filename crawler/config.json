@@ -1,0 +1,10 @@
+{
+	"name": "title",
+	"type": "extract",
+	"element": "#price",
+	"dataType": "single",
+	"filter": function(v) {
+		return v;
+	},
+	"attr": "href"
+}
